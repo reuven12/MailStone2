@@ -1,0 +1,21 @@
+{
+  "name": "nodejsproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dns": "^0.2.2",
+    "dotenv": "^10.0.0",
+    "envfile": "^6.17.0",
+    "fs-extra": "^10.0.0",
+    "node": "^16.6.1",
+    "one-liner-joke": "^1.2.2",
+    "prompt-sync": "^4.2.0",
+    "random-words": "^1.1.1"
+  }
+}

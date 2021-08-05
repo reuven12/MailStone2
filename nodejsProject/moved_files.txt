@@ -1,0 +1,6 @@
+a.txt
+file copy.txt
+file.txt
+a.txt
+file copy.txt
+file.txt
