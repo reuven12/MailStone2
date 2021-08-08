@@ -5,7 +5,7 @@ const fs=require('fs')
  file_generator=(numFiles,numWords)=> {
     for(let i=0;i<numFiles;i++){
 
-        fs.writeFile('./created_files/num'+[i+1],randomWord(numWords), function(error){
+        fs.writeFile(`./created_files/num${i+1}`,randomWord(numWords), function(error){
             if(error) throw error;
         });
         console.log(`file${i+1}: has ${numWords} words`);

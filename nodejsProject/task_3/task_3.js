@@ -13,7 +13,7 @@ function file_mover() {
       fs.rename(`${oldPath}/${file_list[i]}`, `${newPath}/${file_list[i]}`, function (err) {
     if (err) throw err
 })
-       fs.appendFile('moved_files.txt', `${file_list[i]}\n`, function (err) {
+       fs.appendFile('/moved_files.txt', `${file_list[i]}\n`, function (err) {
     if (err) throw err;
 
 })
