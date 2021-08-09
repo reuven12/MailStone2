@@ -1,6 +1,6 @@
 const jokes1 = require('one-liner-joke');
 const fs=require('fs');
-const { Console } = require('console');
+// const { Console } = require('console');
 require('dotenv').config();
 
 
