@@ -8,7 +8,7 @@ union_files=()=>{
     const file2=input('')
 
     if(fs.existsSync('./A/'+file1&&'./A/'+file2)){
-        fs.copyFileSync('./A/'+file1,'./A/'+file2)
+       const b=(fs.readFyleSync('./A/'+file1,utf8))
         console.log('The content passed successfully');
         fs.writeFileSync('./A/'+file1,'')
     }
